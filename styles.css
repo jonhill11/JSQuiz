@@ -1,0 +1,113 @@
+body{
+	padding: 0;
+	margin: 0;	
+	width:100vw;
+	height: 100vh;	
+	background-image: url("smartowl.png");
+	background-size: cover;
+}
+
+.quiztitle{
+	font-family: 'Mochiy Pop One', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 30px;
+	color: white;
+
+}
+
+.panel{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.question-container{
+	margin: 10px;
+	padding: 5px;
+	width: 80vw;
+	height: 10vh;
+	border-radius: 10px;
+	background-color: #c7dddf47;
+	/* background-color: #1087ff; */
+	font-size: x-large;
+	text-align: center;
+	padding-top: 35px;
+	font-family: 'Mochiy Pop One', sans-serif;
+	
+}
+.result{
+	margin: 10px;
+	padding: 5px;
+	width:80vw;
+	height: 10vh;
+	text-align: center;
+	font-size: 50px;
+	
+}
+.option-container{
+	display: flex;
+	justify-content: space-around;
+	margin: 10px;
+	padding: 5px;
+	width: 80vw;
+	height: 20vh;
+	background-color: #9eb1b300;
+		
+}
+.option{	
+	padding: 10px;
+	width: 15vw;
+	height: 20vh;
+	font-size: larger;
+	background-color: lightskyblue;
+	border-radius: 25%;
+	font-family: 'Mochiy Pop One', sans-serif;
+}
+.option:hover{
+	background-color: #218fd4;
+	/* background-color: #146191; */
+	transition: 0.9s;
+	box-shadow:  0 0 10px 10px rgba(133, 198, 238, 0.785) ;
+}
+.navigation{
+	width: 80vw;
+	height: 10vh;
+	margin: 10px;
+	padding: 5px;
+	border-radius: 10px;
+	display: flex;
+	justify-content: space-around;
+	background-color:#c7dddf68;
+}
+
+.evaluate,.next{
+	width:30vw;
+	height: 8vh;
+	padding: 5px;
+	font-size: larger;
+	border-radius: 10px;
+}
+.evaluate{
+	
+	background-color: #4ea975;
+}
+
+.evaluate:hover{
+	background-color: #0a7538;
+	transition: 0.9s;
+	box-shadow:  0 0 10px 10px rgba(176, 227, 176, 0.785) ;
+}
+
+.next{
+	color: white;
+	background-color: #BF3325;
+}
+
+.next:hover{
+	background-color: #b42215;
+	transition: 0.9s;
+	box-shadow:  0 0 10px 10px #e47b71d8 ;
+}
